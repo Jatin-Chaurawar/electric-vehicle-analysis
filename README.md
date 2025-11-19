@@ -30,4 +30,127 @@
 ---
 
 ## 📂 **Project Structure**
+electric-vehicle-analysis/
+│
+├── data/
+│ ├── raw/ # Original dataset(s)
+│ ├── processed/ # Cleaned + feature-engineered data
+│
+├── notebooks/ # Jupyter notebooks for EDA & modeling
+│
+├── src/
+│ ├── data_prep/ # Cleaning, wrangling, feature engineering
+│ ├── models/ # Clustering, forecasting models
+│
+├── dashboard/
+│ ├── app.py # Streamlit dashboard
+│
+├── reports/
+│ ├── figures/ # Visualizations generated from notebooks
+│
+├── tests/ # Unit tests for reliability
+│
+├── LICENSE
+└── README.md
+
+
+---
+
+## 🔍 **Project Overview**
+
+Electric Vehicles (EVs) are rapidly gaining adoption worldwide.  
+This project aims to **analyze EV adoption trends**, understand:
+
+✔ Which states register the most EVs  
+✔ Which manufacturers dominate the market  
+✔ Factors that influence EV growth  
+✔ Future EV adoption forecast (next 3 years)  
+✔ Segmentation of states using clustering  
+✔ Interactive dashboard for real-time exploration  
+
+This project follows a **professional end-to-end workflow** suitable for a Data Analyst / Data Scientist portfolio.
+
+---
+
+## 📊 **Key Insights (From EDA)**
+
+Some of the most important findings:
+
+- 🚀 **EV adoption is accelerating year-over-year**
+- 🏆 **Tesla dominates** EV registrations in most states
+- 🌎 Certain states show significantly faster growth than others
+- 💸 EV range and price (MSRP) show moderate correlation
+- 🧭 State-level EV density varies widely (clustered later)
+
+Visual examples:
+
+<p align="center">
+  <img src="reports/figures/make_distribution.png" width="500px">
+</p>
+<p align="center">
+  <em>Distribution of EVs by manufacturer</em>
+</p>
+
+---
+
+## 🧠 **Machine Learning Work**
+
+### **1️⃣ Feature Engineering**
+Created additional features for deeper analysis:
+
+- `vehicle_age`  
+- `state_ev_count`  
+- `make_avg_range`  
+- Missing-value indicator flags  
+- Aggregated features (make-level statistics)
+
+---
+
+### **2️⃣ Clustering (KMeans)**  
+Segmented states based on:
+
+- EV adoption count  
+- Average EV range  
+- Number of unique manufacturers  
+- Yearly growth rate  
+
+This helps identify:
+
+🔹 High-adoption states  
+🔹 Emerging markets  
+🔹 Underdeveloped EV ecosystems  
+
+---
+
+## 📈 **Forecasting (Time Series)**
+
+Used `statsmodels` Exponential Smoothing (ETS) to forecast **next 3 years of EV registrations**.
+
+Model used:
+
+- Additive trend  
+- No seasonality  
+- Automatically estimated initial values  
+
+Forecast chart example:
+
+<p align="center">
+  <img src="reports/figures/ev_forecast.png" width="520px">
+</p>
+
+---
+
+## 📺 **Streamlit Dashboard**
+
+An interactive dashboard for exploring:
+
+✔ Top EV manufacturers  
+✔ State-level adoption  
+✔ EV growth by year  
+✔ Filtering by state  
+
+Run the dashboard:
+
+```bash
+streamlit run dashboard/app.py
 
