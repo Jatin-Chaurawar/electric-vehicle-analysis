@@ -2,7 +2,6 @@
 
 
 <p align="center">
- # ⚡ Electric Vehicle Analysis — A Data Analytics Project
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
