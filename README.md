@@ -16,7 +16,6 @@
 ---
 
 ## 📌 **Table of Contents**
-- [📂 Project Structure](#-project-structure)
 - [🔍 Project Overview](#-project-overview)
 - [📊 Key Insights](#-key-insights)
 - [🧠 Machine Learning Work](#-machine-learning-work)
