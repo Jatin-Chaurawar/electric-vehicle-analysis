@@ -57,7 +57,7 @@ Some of the most important findings:
 Visual examples:
 
 <p align="center">
-  <img src="reports/figures/make_distribution.png" width="500px">
+  <img src="reports/figures/ev_range_distribution.png" width="500px">
 </p>
 <p align="center">
   <em>Distribution of EVs by manufacturer</em>
