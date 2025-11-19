@@ -29,33 +29,6 @@
 
 ---
 
-## 📂 **Project Structure**
-electric-vehicle-analysis/
-│
-├── data/
-│ ├── raw/ # Original dataset(s)
-│ ├── processed/ # Cleaned + feature-engineered data
-│
-├── notebooks/ # Jupyter notebooks for EDA & modeling
-│
-├── src/
-│ ├── data_prep/ # Cleaning, wrangling, feature engineering
-│ ├── models/ # Clustering, forecasting models
-│
-├── dashboard/
-│ ├── app.py # Streamlit dashboard
-│
-├── reports/
-│ ├── figures/ # Visualizations generated from notebooks
-│
-├── tests/ # Unit tests for reliability
-│
-├── LICENSE
-└── README.md
-
-
----
-
 ## 🔍 **Project Overview**
 
 Electric Vehicles (EVs) are rapidly gaining adoption worldwide.  
