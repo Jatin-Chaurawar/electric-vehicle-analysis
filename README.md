@@ -2,11 +2,13 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Category-Data%20Analytics-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Tools-Python%20%7C%20Pandas%20%7C%20EDA-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Model-ML%20%7C%20Forecasting-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dashboard-Streamlit-red?style=flat-square" />
+ # ⚡ Electric Vehicle Analysis — A Data Analytics Project
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/Jatin-Chaurawar/electric-vehicle-analysis)
+![Repo Size](https://img.shields.io/github/repo-size/Jatin-Chaurawar/electric-vehicle-analysis)
+
 </p>
 
 <p align="center">
