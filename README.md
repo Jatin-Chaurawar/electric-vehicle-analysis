@@ -1,97 +1,57 @@
-# ⚡ Electric Vehicle (EV) Market Analysis – India  
-Data Analytics • Exploratory Data Analysis • EV Adoption Trends
+# ⚡ Electric Vehicle Population Analysis  
+**A data-driven exploration of EV adoption, purchasing behavior, and regional trends in the United States.**
 
-![GitHub top language](https://img.shields.io/github/languages/top/Jatin-Chaurawar/electric-vehicle-analysis)
-![GitHub last commit](https://img.shields.io/github/last-commit/Jatin-Chaurawar/electric-vehicle-analysis)
-![GitHub repo size](https://img.shields.io/github/repo-size/Jatin-Chaurawar/electric-vehicle-analysis)
-![GitHub contributors](https://img.shields.io/github/contributors/Jatin-Chaurawar/electric-vehicle-analysis)
-
----
-
-## 📑 Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset Description](#dataset-description)
-- [Tech Stack](#tech-stack)
-- [Key Analysis Performed](#key-analysis-performed)
-- [Insights & Findings](#insights--findings)
-- [Visualizations](#visualizations)
-- [How to Run the Project](#how-to-run-the-project)
-- [Future Enhancements](#future-enhancements)
-- [Author](#author)
+![EV Banner](https://img.shields.io/badge/EV%20Analytics-Sustainable%20Future-brightgreen?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active%20Project-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
-## 🔍 Project Overview  
+## 🚀 Overview  
+This project delivers a **complete end-to-end analysis** of Electric Vehicle (EV) adoption using a large real-world dataset.  
+It includes:
 
-This project explores the adoption and distribution of Electric Vehicles (EVs) across India, analyzing growth patterns, state-wise penetration, manufacturer performance, and EV type distribution.  
-Through Python-based EDA, the project identifies key market insights that can help policymakers, EV companies, and researchers understand the evolving EV ecosystem.
+- 🧹 **Data cleaning & feature engineering**  
+- 📊 **Exploratory analysis** of EV distribution, brands, range, and geography  
+- 📈 **Trend analysis** on year-wise EV growth  
+- 🎯 **Clustering & segmentation** of EV types  
+- 🖥 **Interactive Streamlit dashboard**  
+- 🔍 **Insights that matter** for manufacturers, policymakers, and sustainability decisions  
 
-The analysis focuses on trends in EV categories, fuel types, geographic patterns, and dominant manufacturers across the country.
-
----
-
-## 📂 Dataset Description  
-
-The dataset includes EV registrations across different Indian states and contains the following key fields:
-
-- **State** – Registration location  
-- **Vehicle Category** – 2W, 3W, 4W, etc.  
-- **Vehicle Type** – EV, Hybrid, etc.  
-- **Fuel Type** – Battery Electric, Plug-in Hybrid, etc.  
-- **Manufacturer** – OEM name  
-- **Model Variants** – Specific model details  
-- **Registration Year** – Year of registration  
-
-Dataset Format: **CSV** (located in `./data/`)
+The goal is to demonstrate strong analytical thinking and real-world data-science workflow — exactly what hiring managers look for.
 
 ---
 
-## 🛠 Tech Stack  
-- **Language:** Python  
-- **Libraries Used:**  
-  - Pandas  
-  - NumPy  
-  - Matplotlib  
-  - Seaborn  
-- **Tools:**  
-  - Jupyter Notebook  
-  - GitHub  
-- **Environment:**  
-  - Virtual Environment (`venv`)
+## 🌟 Key Insights (Summary)
+Some standout findings from the analysis:
+
+### 🔹 **1. Tesla dominates EV adoption**
+Tesla consistently appears as the top brand across most states and cities.
+
+### 🔹 **2. Strong upward growth trend**
+Year-wise registrations show **rapid acceleration after 2018**, indicating increasing customer trust and market maturity.
+
+### 🔹 **3. Wide variation in electric range**
+Different makes/models show significant differences in average electric range — important for consumer decision-making.
+
+### 🔹 **4. State-level differences**
+Some states (e.g., CA, WA) lead EV adoption heavily, influenced by policies, incentives, and charging infrastructure.
 
 ---
 
-## 📘 Key Analysis Performed  
+## 🧠 Feature Engineering  
+New variables added to improve analysis quality:
 
-✔ State-wise EV adoption analysis  
-✔ Manufacturer-wise EV dominance  
-✔ EV category distribution (2W, 3W, 4W, Commercial Vehicles)  
-✔ Fuel-type trend comparison  
-✔ Year-wise adoption curve  
-✔ Identification of high-growth states  
-✔ Understanding which vehicle segments lead EV adoption  
+| Feature | Description |
+|--------|-------------|
+| `vehicle_age` | Age of the EV based on Model Year |
+| `make_count` | Number of vehicles by each manufacturer |
+| `make_avg_range` | Average electric range per brand |
+| `state_ev_count` | EV count per state |
 
----
-
-## 📊 Insights & Findings  
-
-- **Two-wheelers** are the fastest-growing EV segment in India.  
-- States like **Maharashtra, Karnataka, and Delhi** show the highest EV adoption.  
-- **Battery Electric Vehicles (BEVs)** dominate the market, indicating a strong shift from hybrids.  
-- A few manufacturers contribute to most EV registrations, showing a concentrated market.  
-- Tier-1 and metro states lead adoption due to better charging infrastructure and incentives.
+These engineered features allowed deeper insights and better segmentation.
 
 ---
 
-## 🖼 Visualizations  
-
-Since the raw charts are not uploaded yet, here are recommended plots you can generate and save in a `visuals/` folder:
-
-- **State-wise EV Count Bar Chart**  
-- **Manufacturer Market Share Pie Chart**  
-- **EV Category Distribution Plot**  
-- **Year-wise EV Growth Line Chart**  
-- **Fuel Type Distribution Histogram**
-
-After generating, upload them in:
-
+## 📊 Visual Highlights  
