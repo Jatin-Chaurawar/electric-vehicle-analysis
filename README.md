@@ -1,4 +1,11 @@
 <h1 align="center">🚗⚡ Electric Vehicle (EV) Population Analysis</h1>
+# ⚡ Electric Vehicle Analysis — A Data Analytics Project
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/Jatin-Chaurawar/electric-vehicle-analysis)
+![Repo Size](https://img.shields.io/github/repo-size/Jatin-Chaurawar/electric-vehicle-analysis)
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
