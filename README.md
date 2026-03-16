@@ -1,57 +1,132 @@
-# ⚡ Electric Vehicle Population Analysis  
-**A data-driven exploration of EV adoption, purchasing behavior, and regional trends in the United States.**
+# ⚡ Electric Vehicle Market Analysis – India
 
-![EV Banner](https://img.shields.io/badge/EV%20Analytics-Sustainable%20Future-brightgreen?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active%20Project-success)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Project Banner](PASTE_YOUR_BANNER_IMAGE_LINK_HERE)
 
----
+## 📊 Project Overview
 
-## 🚀 Overview  
-This project delivers a **complete end-to-end analysis** of Electric Vehicle (EV) adoption using a large real-world dataset.  
-It includes:
+This project analyzes the **Electric Vehicle (EV) market in India** to understand adoption trends, market growth, and regional performance.
 
-- 🧹 **Data cleaning & feature engineering**  
-- 📊 **Exploratory analysis** of EV distribution, brands, range, and geography  
-- 📈 **Trend analysis** on year-wise EV growth  
-- 🎯 **Clustering & segmentation** of EV types  
-- 🖥 **Interactive Streamlit dashboard**  
-- 🔍 **Insights that matter** for manufacturers, policymakers, and sustainability decisions  
+The analysis was conducted as part of a **business case study for AtliQ Motors**, a US-based EV manufacturer planning to expand into the Indian market.
 
-The goal is to demonstrate strong analytical thinking and real-world data-science workflow — exactly what hiring managers look for.
+The objective of this project is to generate **data-driven insights that help stakeholders understand the EV ecosystem in India and identify growth opportunities.**
 
 ---
 
-## 🌟 Key Insights (Summary)
-Some standout findings from the analysis:
+## 🏢 Business Problem
 
-### 🔹 **1. Tesla dominates EV adoption**
-Tesla consistently appears as the top brand across most states and cities.
+AtliQ Motors currently holds:
 
-### 🔹 **2. Strong upward growth trend**
-Year-wise registrations show **rapid acceleration after 2018**, indicating increasing customer trust and market maturity.
+* **25% market share in North America**
+* **Less than 2% market share in India**
 
-### 🔹 **3. Wide variation in electric range**
-Different makes/models show significant differences in average electric range — important for consumer decision-making.
+Before launching EV models in India, the leadership team wants to understand:
 
-### 🔹 **4. State-level differences**
-Some states (e.g., CA, WA) lead EV adoption heavily, influenced by policies, incentives, and charging infrastructure.
+• EV market growth trends
+• State-wise EV adoption
+• Leading EV manufacturers
+• Market penetration rates
+• Future growth opportunities
 
----
-
-## 🧠 Feature Engineering  
-New variables added to improve analysis quality:
-
-| Feature | Description |
-|--------|-------------|
-| `vehicle_age` | Age of the EV based on Model Year |
-| `make_count` | Number of vehicles by each manufacturer |
-| `make_avg_range` | Average electric range per brand |
-| `state_ev_count` | EV count per state |
-
-These engineered features allowed deeper insights and better segmentation.
+The analytics team was tasked with performing a **comprehensive EV market analysis**.
 
 ---
 
-## 📊 Visual Highlights  
+## 📂 Project Structure
+
+```bash
+electric-vehicle-analysis
+│
+├── datasets
+│
+├── problem_statement.pdf
+│
+├── primary_and_secondary_questions.pdf
+│
+├── EV analysis presentation
+│
+└── README.md
+```
+
+---
+
+## 📈 Dashboard Preview
+
+![Dashboard Preview](https://user-images.githubusercontent.com/xxxx/image.png)
+
+The dashboard highlights:
+
+* Total EV Sales
+* CAGR growth rate
+* Year-over-Year growth
+* EV penetration by state
+* Top EV manufacturers
+* Quarterly EV sales trends
+
+---
+
+## 📊 Key Metrics Used
+
+### EV Penetration Rate
+
+```
+EV Penetration = EV Units Sold / Total Vehicle Units Sold
+```
+
+### Year-over-Year Growth
+
+Measures EV sales growth compared to the previous year.
+
+### CAGR
+
+Compound Annual Growth Rate used to measure long-term market expansion.
+
+---
+
+## 🔍 Analysis Performed
+
+The project answers the following business questions:
+
+• Top EV manufacturers in India
+• Top states by EV adoption
+• States with declining EV penetration
+• Quarterly EV sales growth trends
+• EV penetration rate across regions
+
+These insights help identify **high potential markets for EV expansion**.
+
+---
+
+## 💡 Key Insights
+
+✔ EV adoption in India is growing rapidly
+✔ Certain states lead EV penetration due to better infrastructure
+✔ Government incentives significantly impact EV adoption
+✔ Market competition among EV manufacturers is increasing
+
+---
+
+## 🛠 Tools & Technologies
+
+* Data Analytics Techniques
+* Business Intelligence
+* Market Trend Analysis
+
+---
+
+## 🚀 Business Impact
+
+This analysis helps **AtliQ Motors evaluate market opportunities and expansion strategies for entering the Indian EV market.**
+
+---
+
+## 👨‍💻 Author
+
+**Jatin Chaurawar**
+Aspiring Data Analyst
+
+GitHub:
+https://github.com/Jatin-Chaurawar
+
+---
+
+⭐ If you find this project useful, consider giving it a **star**!
